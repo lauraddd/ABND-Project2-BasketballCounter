@@ -26,7 +26,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:paddingTop="16dp"
-                android:text="Team A"
+                android:text="@string/tv_team_a"
                 android:fontFamily="sans-serif-medium"
                 android:textSize="20sp"/>
 
@@ -42,34 +42,19 @@
                 android:id="@+id/team_a_score"/>
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:text="+3 Points"
-                android:onClick="addThreeForTeamA" />
+                android:onClick="addThreeForTeamA"
+                style="@style/CustomButtonStyle"/>
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:text="+2 Points"
-                android:onClick="addTwoForTeamA"/>
+                android:onClick="addTwoForTeamA"
+                style="@style/CustomButtonStyle"/>
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:text="Free throw"
-                android:onClick="addOneForTeamA"/>
+                android:onClick="addOneForTeamA"
+                style="@style/CustomButtonStyle"/>
 
         </LinearLayout>
 
@@ -93,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:paddingTop="16dp"
-                android:text="Team B"
+                android:text="@string/tv_team_b"
                 android:fontFamily="sans-serif-medium"
                 android:textSize="20sp"/>
 
@@ -109,34 +94,19 @@
                 android:id="@+id/team_b_score"/>
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:text="+3 Points"
-                android:onClick="addThreeForTeamB"/>
+                android:onClick="addThreeForTeamB"
+                style="@style/CustomButtonStyle"/>
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:text="+2 Points"
-                android:onClick="addTwoForTeamB"/>
+                android:onClick="addTwoForTeamB"
+                style="@style/CustomButtonStyle"/>
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
                 android:text="Free throw"
-                android:onClick="addOneForTeamB"/>
+                android:onClick="addOneForTeamB"
+                style="@style/CustomButtonStyle"/>
 
         </LinearLayout>
 
@@ -151,7 +121,4 @@
         android:text="Reset"
         android:onClick="reset"/>
 
-
 </RelativeLayout>
-
-

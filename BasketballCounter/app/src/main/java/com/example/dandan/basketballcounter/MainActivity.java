@@ -85,8 +85,4 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamB(scoreTeamB);
     }
 
-
-
-
-
 }
